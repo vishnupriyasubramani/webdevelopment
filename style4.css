@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    width: 100%;
+    height: 60px;
+    background-image: url(header.jpg);
+    color: white;
+    display: flex;
+    align: center;
+    padding: 10px;
+}
+#gmail{
+color:brown;
+}
+
+
+
+nav {
+    background-color: grey;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+#content {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+#sidebar {
+    width: 450px;
+    
+}
+
+.column1 {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+   
+}
+
+#p{
+	color:orange;
+	font-weight:bold;
+	font-size:15px;
+}
+aside img{
+	opacity:0.2;
+}
+
+
+.column1 p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+
+#footer {
+	width:100%;
+	height:80px;
+	font-weight:bold;
+	background-image:url(header.jpg);
+    background-color: grey;
+    color: white;
+    text-align: center;
+	margin-bottom:10px;
+    padding: 10px;
+   
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+footer ul li {
+    margin: 0 15px;
+}
+
+footer ul li a {
+     color: black;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin-top: 20px;
+}
