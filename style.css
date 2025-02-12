@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+	
+}
+	
+#header {
+    width: 100%;
+    height: 60px;
+    background-image: url(header.jpg);
+    color: white;
+    display: flex;
+    align: center;
+    padding: 10px;
+}
+#gmail{
+color:brown;
+}
+
+
+nav {
+    background-color: grey;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+#p{
+	font-size:14px;
+	font-family:Cambria;
+}
+#p2{
+	font-size:15px;
+	font-family:Cambria;
+}
+
+#c1{
+	display:flex;
+	margin:solid white 10px;
+	padding-left: 20px;
+	text-align:center;
+}
+#c2{
+	display:flex;
+	margin:solid white 20px;
+	padding-left: 20px;
+	text-align:center;
+}
+
+	
+#text1{
+	font-size:10px;
+	font-family:Cambria;
+}
+#slogan{
+	background-color:brown;
+	color:white;
+	font-weight:bold;
+	font-family:Cambria;
+}	
+#w {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+}
+
+#sidebar {
+    width: 200px;
+    margin-right: 20px;
+	font-family:Cambria;
+}
+
+#content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+	font-family:Cambria;
+}
+#s{
+	font-size:20px;
+	font-family:Cambria;
+}
+
+
+article items h2{
+	background-color:green;
+	font-size:9px;
+	font-family:Cambria;
+}
+
+article {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border-left: none; 
+}
+article h1{
+background-color:Darkgreen;
+color:white;
+		
+}
+article p{
+	font-size:10px;
+	font-family:Cambria;
+}
+#categories{
+padding:20px 0 0 0;
+}
+#categories li{
+list-style-type:none;
+line-height:19px;
+padding:0 0 0 8px;
+}
+#categories a{
+color:#363636;
+text-decoration:none;
+}
+
+#categoriesa:hover{text-decoration:underline}
+.color{
+background-image:url(C:\\Users\\lenovo\\Downloads\\html\\images\\color.gif);
+background-position:top left;
+background-repeat:no-repeat;
+}
+
+#column2 {
+    width: 200px;
+    margin-left: 20px;
+}
+
+.news {
+    margin-bottom: 20px;
+}
+article p{
+	font-size:20px;
+	font-family:'Agency FB';
+	margin-left:10px;
+}
+
+#footer {
+	width:100%;
+	height:80px;
+	font-weight:bold;
+	background-image:url(header.jpg);
+    
+    color: black;
+    text-align: center;
+    padding: 10px;
+   
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+	font-weight:bold;
+ 
+}
+
+footer ul li {
+    margin: 0 15px;
+}
+
+footer ul li a {
+     color: black;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin-top: 20px;
+}
